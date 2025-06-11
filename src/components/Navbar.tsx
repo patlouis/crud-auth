@@ -18,6 +18,12 @@ function Navbar() {
             <Link to="/contact" className="text-gray-700 hover:text-indigo-600 font-medium">
               Contact
             </Link>
+            <Link to="/login" className="text-gray-700 hover:text-indigo-600 font-medium">
+              Login
+            </Link>
+            <Link to="/signup" className="text-gray-700 hover:text-indigo-600 font-medium">
+              Signup
+            </Link>
           </div>
         </div>
       </div>
