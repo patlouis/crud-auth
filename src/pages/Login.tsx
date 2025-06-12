@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Login = () => {
   return (
@@ -34,6 +35,7 @@ const Login = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
