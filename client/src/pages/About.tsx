@@ -1,7 +1,7 @@
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-function App() {
+function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 to-indigo-200">
       <Navbar />
@@ -9,7 +9,7 @@ function App() {
       {/* Main Content */}
       <div className="flex items-center justify-center h-[calc(100vh-4rem)]">
         <h1 className="text-5xl font-bold text-indigo-800 drop-shadow-md">
-          Welcome!
+          About
         </h1>
       </div>
         <Footer />
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
